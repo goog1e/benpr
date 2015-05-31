@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Bell-Gothic;
+    src: url(Bell-Gothic-bt.ttf);
+    font-weight: bold;
+}
+
+html, body {
+    font-family: 'Bell-Gothic', sans-serif;
+}
+
+ul {margin: 0; padding:0;}
+
+li {
+    list-style: none;
+    display: inline-block;
+    background: #00F;
+    color: #FEFEFE;
+    font-size: 22em;
+    font-family: 'Bell-Gothic', sans-serif;
+    margin: 0;
+    width: 18%;
+    text-align: center;
+    line-height: 120%;
+    margin-top: -0.12em;
+}
+
+li:hover{opacity: .5;}
+
+.a {background: #4067B2;}
+.b {background: #060709;}
+.c {background: #EE3A23;}
+.d {background: #060709;}
+.e {background: #4067B2;}
